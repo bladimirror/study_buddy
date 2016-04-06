@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset='utf-8'>
+		<title>Study Buddy</title>
+
+		<!--CSS FILE -->
+        <link type="text/css" rel="stylesheet" href="/css/study_buddy.css" />
+        <!--BOOTSTRAP-->
+			<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+			<!-- Optional theme -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+			<!-- Latest compiled and minified JavaScript -->
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!--JQUERY LIBRARY CALL
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js">
+        </script>-->
+	</head>
+
+	<body>
+		<div id="container">
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Brand</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<div id="mooc_dropdown">
+							<select class="nav navbar-nav">
+								<option value="7055">+Acumen</option>
+								<option value="7747">360training</option>
+								<option value="3112">Allversity</option>
+								<option value="2172">ApnaCourse</option>
+								<option value="2360">Aquent Gymnasium</option>
+								<option value="6294">Box Hill Institute</option>
+								<option value="2899">C++ Institute</option>
+								<option value="3287">Canvas</option>
+								<option value="5">Canvas Network</option>
+								<option value="8">Class2Go</option>
+								<option value="2582">Commonwealth of Learning</option>
+								<option value="2911">Complexity Explorer</option>
+								<option value="4">Coursera</option>
+								<option value="1317">CourseSites</option>
+								<option value="7305">Cybrary</option>
+								<option value="4349">Desire2Learn</option>
+								<option value="6700">Digital Business Academy</option>
+								<option value="7975">ECO Project</option>
+								<option value="6425">EdCast</option>
+								<option value="10089">Eduonix</option>
+								<option value="3">EdX</option>
+								<option value="3928">ELD</option>
+								<option value="8403">EMMA</option>
+								<option value="7887">European Schoolnet Academy</option>
+								<option value="7418">Firstaidforfree</option>
+								<option value="4362">FUN</option>
+								<option value="5183">Fundación Didáctica</option>
+								<option value="626">FutureLearn</option>
+								<option value="3590">FX Academy</option>
+								<option value="5614">GW Online</option>
+								<option value="6201">IAI Academy</option>
+								<option value="3982">Instreamia</option>
+								<option value="6273">Investoo.com</option>
+								<option value="1809">Iversity</option>
+								<option value="9542">Kadenze</option>
+								<option value="7720">KAU</option>
+								<option value="2605">Lagunita</option>
+								<option value="7793">Leada</option>
+								<option value="524">Leuphana Digital School</option>
+								<option value="4466">Marist Colleges FOLD</option>
+								<option value="9258">Master University</option>
+								<option value="3009">Miríada X</option>
+								<option value="10">MongoDB</option>
+								<option value="1722">MOOC-Ed</option>
+								<option value="7">MRUniversity</option>
+								<option value="2813">Neodemia</option>
+								<option value="9">NovoEd</option>
+								<option value="12295">Online University of Finland</option>
+								<option value="8239">OOEd</option>
+								<option value="5905">Open Education</option>
+								<option value="1128">Open2Study</option>
+								<option value="3636">OpenCourseWorld</option>
+								<option value="2">OpenHPI</option>
+								<option value="1">OpenLearning</option>
+								<option value="1356">OpenSAP</option>
+								<option value="1293">OpenSecurityTraining</option>
+								<option value="587">Other Providers</option>
+								<option value="432">P2PU</option>
+								<option value="6601">Polimi OPEN KNOWLEDGE</option>
+								<option value="563">Santa Fe Institute</option>
+								<option value="7255">SAPXPERT</option>
+								<option value="590">Saylor.org</option>
+								<option value="8207">School of Business and Trade</option>
+								<option value="5196">SchoolKeep</option>
+								<option value="5721">SDSN.edu</option>
+								<option value="11359">Smartly</option>
+								<option value="4806">SoundviewPro.com</option>
+								<option value="4344">TareasPlus</option>
+								<option value="3582">The Writing University</option>
+								<option value="4584">TV des Entrepreneurs</option>
+								<option value="6">Udacity</option>
+								<option value="1525">Udemy</option>
+								<option value="431">UNED COMA</option>
+								<option value="2931">UneOpen</option>
+								<option value="577">UniMOOC - Tec</option>
+								<option value="4128">UNINETTUNO OpenupEd</option>
+								<option value="3772">Universarium</option>
+								<option value="5468">Universiteplus</option>
+								<option value="4367">UP2U</option>
+								<option value="3786">UPVX</option>
+								<option value="6535">Veduca</option>
+								<option value="3985">Virtual Linguistics Campus</option>
+								<option value="1142">WEU</option>
+								<option value="2961">World Mentoring Academy (WMA)</option>
+								<option value="4266">Younico</option>
+							</select>
+						</div>
+						<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+					    <button type="submit" class="btn btn-default">Submit</button>
+						</form>
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#">Link</a></li>
+							<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li role="separator" class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+	</body>
+</html>
